@@ -8,7 +8,7 @@ public class FirstQuestion {
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
         }
-//        int[] nums = {-4, 1, 3, -2, -1};
+
 
         int[] result = findZeroSumElements(nums);
         if (result.length > 0) {
